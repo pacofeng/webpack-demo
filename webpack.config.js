@@ -10,9 +10,13 @@ const commonConfig = merge([
   // parts.loadCSS(),
   parts.extractCSS({ loaders: cssLoaders }),
   parts.loadImages({ limit: 15000 }),
+  parts.loadJavaScript(),
 ]);
 
-const productionConfig = merge([parts.eliminateUnusedCSS]);
+const productionConfig = merge([
+  parts.eliminateUnusedCSS,
+  { mode: 'production' },
+]);
 const developmentConfig = merge([
   { entry: ['webpack-plugin-serve/client'] },
   parts.devServer(),
@@ -20,8 +24,12 @@ const developmentConfig = merge([
 
 const getConfig = (mode) => {
   switch (mode) {
-    case 'production':
-      return merge(commonConfig, productionConfig, { mode });
+    case 'prod:legacy':
+      process.env.BROWSERSLIST_ENV = 'legacy';
+      return merge(commonConfig, productionConfig);
+    case 'prod:modern':
+      process.env.BROWSERSLIST_ENV = 'modern';
+      return merge(commonConfig, productionConfig);
     case 'development':
       return merge(commonConfig, developmentConfig, { mode });
     default:

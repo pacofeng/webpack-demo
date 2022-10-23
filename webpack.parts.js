@@ -6,6 +6,7 @@ const glob = require('glob');
 const PurgeCSSPlugin = require('purgecss-webpack-plugin');
 
 const ALL_FILES = glob.sync(path.join(__dirname, 'src/*.js'));
+const APP_SOURCE = path.join(__dirname, 'src');
 
 exports.devServer = () => ({
   watch: true,
@@ -100,6 +101,18 @@ exports.loadImages = ({ limit } = {}) => ({
         test: /\.(png|jpg)$/,
         type: 'asset',
         parser: { dataUrlCondition: { maxSize: limit } },
+      },
+    ],
+  },
+});
+
+exports.loadJavaScript = () => ({
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        include: APP_SOURCE,
+        use: 'babel-loader',
       },
     ],
   },
