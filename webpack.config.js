@@ -17,6 +17,20 @@ const productionConfig = merge([
   parts.eliminateUnusedCSS,
   { mode: 'production' },
   parts.generateSourceMaps({ type: 'source-map' }),
+  // { optimization: { splitChunks: { chunks: 'all' } } },
+  {
+    optimization: {
+      splitChunks: {
+        cacheGroups: {
+          commons: {
+            test: /[\\/]node_modules[\\/]/,
+            name: 'vendor',
+            chunks: 'initial',
+          },
+        },
+      },
+    },
+  },
 ]);
 const developmentConfig = merge([
   { entry: ['webpack-plugin-serve/client'] },
