@@ -2,12 +2,13 @@ const { MiniHtmlWebpackPlugin } = require('mini-html-webpack-plugin');
 const { WebpackPluginServe } = require('webpack-plugin-serve');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-
 const path = require('path');
 const glob = require('glob');
 const PurgeCSSPlugin = require('purgecss-webpack-plugin');
 const webpack = require('webpack');
 const { GitRevisionPlugin } = require('git-revision-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 const ALL_FILES = glob.sync(path.join(__dirname, 'src/*.js'));
 const APP_SOURCE = path.join(__dirname, 'src');
@@ -134,4 +135,14 @@ exports.attachRevision = () => ({
       banner: new GitRevisionPlugin().version(),
     }),
   ],
+});
+
+exports.minifyJavaScript = () => ({
+  optimization: { minimizer: [new TerserPlugin()] },
+});
+
+exports.minifyCss = ({ options }) => ({
+  optimization: {
+    minimizer: [new CssMinimizerPlugin({ minimizerOptions: options })],
+  },
 });

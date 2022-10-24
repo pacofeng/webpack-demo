@@ -15,7 +15,6 @@ const commonConfig = merge([
   parts.extractCSS({ loaders: cssLoaders }),
   parts.loadImages({ limit: 15000 }),
   parts.loadJavaScript(),
-  parts.attachRevision(),
 ]);
 
 const productionConfig = merge([
@@ -36,7 +35,11 @@ const productionConfig = merge([
       },
     },
   },
+  parts.attachRevision(),
+  parts.minifyJavaScript(),
+  parts.minifyCss({ options: { preset: ['default'] } }),
 ]);
+
 const developmentConfig = merge([
   { entry: ['webpack-plugin-serve/client'] },
   parts.devServer(),
