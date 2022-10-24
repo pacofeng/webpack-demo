@@ -1,1 +1,2 @@
 !function(){"use strict";document.body.appendChild(function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"hello world",d=document.createElement("div");return d.innerHTML=e,d.className="rounded bg-red-100 border max-w-md m-4 p-4",d}())}();
+//# sourceMappingURL=main.js.map

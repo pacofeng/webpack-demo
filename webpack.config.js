@@ -16,6 +16,7 @@ const commonConfig = merge([
 const productionConfig = merge([
   parts.eliminateUnusedCSS,
   { mode: 'production' },
+  parts.generateSourceMaps({ type: 'source-map' }),
 ]);
 const developmentConfig = merge([
   { entry: ['webpack-plugin-serve/client'] },
