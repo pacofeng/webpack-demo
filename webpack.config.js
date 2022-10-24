@@ -15,6 +15,7 @@ const commonConfig = merge([
   parts.extractCSS({ loaders: cssLoaders }),
   parts.loadImages({ limit: 15000 }),
   parts.loadJavaScript(),
+  parts.setFreeVariable('HELLO', 'hello from config'),
 ]);
 
 const productionConfig = merge([
