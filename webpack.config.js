@@ -39,6 +39,13 @@ const productionConfig = merge([
   parts.attachRevision(),
   parts.minifyJavaScript(),
   parts.minifyCss({ options: { preset: ['default'] } }),
+  {
+    output: {
+      chunkFilename: '[name].[contenthash].js',
+      filename: '[name].[contenthash].js',
+      assetModuleFilename: '[name].[contenthash][ext][query]',
+    },
+  },
 ]);
 
 const developmentConfig = merge([
