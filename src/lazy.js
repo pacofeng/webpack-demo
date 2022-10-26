@@ -1,1 +1,1 @@
-export default 'Hello from lazy';
+export default 'Hello from lazy!!';

@@ -34,6 +34,7 @@ const productionConfig = merge([
           },
         },
       },
+      runtimeChunk: { name: 'runtime' },
     },
   },
   parts.attachRevision(),
@@ -45,6 +46,9 @@ const productionConfig = merge([
       filename: '[name].[contenthash].js',
       assetModuleFilename: '[name].[contenthash][ext][query]',
     },
+  },
+  {
+    recordsPath: path.join(__dirname, 'records.json'),
   },
 ]);
 
