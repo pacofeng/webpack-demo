@@ -1,0 +1,4424 @@
+{
+  "hash": "694892f9029285c832ec",
+  "version": "5.74.0",
+  "time": 3676,
+  "builtAt": 1667020417286,
+  "publicPath": "auto",
+  "outputPath": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/dist",
+  "assetsByChunkName": {
+    "main": ["main.656ee1078d22d898655d.css", "main.d92408b9b46eeb47448f.js"],
+    "runtime": ["runtime.13ce8f52ed3a930d84bd.js"],
+    "vendor": ["vendor.ae0bdd575d7b90635592.js"]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "vendor.ae0bdd575d7b90635592.js",
+      "size": 137782,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "ae0bdd575d7b90635592",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "vendor.ae0bdd575d7b90635592.js.LICENSE.txt",
+          "sourceMap": "vendor.ae0bdd575d7b90635592.js.map"
+        },
+        "size": 137782
+      },
+      "chunkNames": ["vendor"],
+      "chunkIdHints": ["commons"],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "vendor.ae0bdd575d7b90635592.js.map",
+          "size": 348320,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 348320
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": ["vendor"],
+          "auxiliaryChunkIdHints": ["commons"],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [736],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "vendor.ae0bdd575d7b90635592.js.LICENSE.txt",
+          "size": 737,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 737
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [736],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": true
+    },
+    {
+      "type": "asset",
+      "name": "logo.0590aaf0fe36e23dcc8c.png",
+      "size": 42155,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/logo.png",
+        "immutable": true,
+        "contenthash": "0590aaf0fe36e23dcc8c",
+        "size": 42155
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["main"],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [179],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.656ee1078d22d898655d.css",
+      "size": 5784,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "656ee1078d22d898655d",
+        "minimized": true,
+        "related": {
+          "sourceMap": "main.656ee1078d22d898655d.css.map"
+        },
+        "size": 5784
+      },
+      "chunkNames": ["main"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "main.656ee1078d22d898655d.css.map",
+          "size": 14644,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 14644
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": ["main"],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [179],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [179],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "runtime.13ce8f52ed3a930d84bd.js",
+      "size": 3279,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "13ce8f52ed3a930d84bd",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "runtime.13ce8f52ed3a930d84bd.js.LICENSE.txt",
+          "sourceMap": "runtime.13ce8f52ed3a930d84bd.js.map"
+        },
+        "size": 3279
+      },
+      "chunkNames": ["runtime"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "runtime.13ce8f52ed3a930d84bd.js.map",
+          "size": 15883,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 15883
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": ["runtime"],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [666],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "runtime.13ce8f52ed3a930d84bd.js.LICENSE.txt",
+          "size": 15,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 15
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [666],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.d92408b9b46eeb47448f.js",
+      "size": 733,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "d92408b9b46eeb47448f",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "main.d92408b9b46eeb47448f.js.LICENSE.txt",
+          "sourceMap": "main.d92408b9b46eeb47448f.js.map"
+        },
+        "size": 733
+      },
+      "chunkNames": ["main"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "main.d92408b9b46eeb47448f.js.map",
+          "size": 1403,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 1403
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": ["main"],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [179],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "main.d92408b9b46eeb47448f.js.LICENSE.txt",
+          "size": 15,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 15
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [179],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 382,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 382
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "34.1dff8bf5967995c33e1d.js",
+      "size": 284,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "1dff8bf5967995c33e1d",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "34.1dff8bf5967995c33e1d.js.LICENSE.txt",
+          "sourceMap": "34.1dff8bf5967995c33e1d.js.map"
+        },
+        "size": 284
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "34.1dff8bf5967995c33e1d.js.map",
+          "size": 206,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 206
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [34],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "34.1dff8bf5967995c33e1d.js.LICENSE.txt",
+          "size": 15,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 15
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [34],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 35,
+      "sizes": {
+        "javascript": 35
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": ["runtime"],
+      "files": ["34.1dff8bf5967995c33e1d.js"],
+      "auxiliaryFiles": ["34.1dff8bf5967995c33e1d.js.map"],
+      "hash": "66da7c9eaaaf6974f00e",
+      "childrenByOrder": {},
+      "id": 34,
+      "siblings": [],
+      "parents": [179, 666, 736],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 35,
+          "sizes": {
+            "javascript": 35
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/lazy.js",
+          "name": "./src/lazy.js",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/lazy.js",
+          "index": 11,
+          "preOrderIndex": 11,
+          "index2": 11,
+          "postOrderIndex": 11,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+          "issuerName": "./src/component.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+              "name": "./src/component.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 34,
+          "issuerId": null,
+          "chunks": [34],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+              "module": "./src/component.js",
+              "moduleName": "./src/component.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+              "resolvedModule": "./src/component.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./lazy",
+              "loc": "7:4-20",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js|d7f0103a5a55bdc1504ecdf31195ff74",
+              "module": "./src/index.js + 3 modules",
+              "moduleName": "./src/index.js + 3 modules",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+              "resolvedModule": "./src/component.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./lazy",
+              "loc": "7:4-20",
+              "moduleId": 604,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": ["default"],
+          "optimizationBailout": [],
+          "depth": 2
+        }
+      ],
+      "origins": [
+        {
+          "module": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+          "moduleName": "./src/component.js",
+          "loc": "7:4-20",
+          "request": "./lazy",
+          "moduleId": null
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "size": 6764,
+      "sizes": {
+        "javascript": 849,
+        "css/mini-extract": 5915
+      },
+      "names": ["main"],
+      "idHints": [],
+      "runtime": ["runtime"],
+      "files": [
+        "main.656ee1078d22d898655d.css",
+        "main.d92408b9b46eeb47448f.js"
+      ],
+      "auxiliaryFiles": [
+        "logo.0590aaf0fe36e23dcc8c.png",
+        "main.656ee1078d22d898655d.css.map",
+        "main.d92408b9b46eeb47448f.js.map"
+      ],
+      "hash": "4bc677fa62baee44e79a",
+      "childrenByOrder": {},
+      "id": 179,
+      "siblings": [666, 736],
+      "parents": [],
+      "children": [34],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 849,
+          "sizes": {
+            "javascript": 849
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js|d7f0103a5a55bdc1504ecdf31195ff74",
+          "name": "./src/index.js + 3 modules",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 604,
+          "chunks": [179],
+          "assets": ["logo.0590aaf0fe36e23dcc8c.png"],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/index.js: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 173,
+              "sizes": {
+                "javascript": 173
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 10,
+              "postOrderIndex": 10,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 6:0-7"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 50,
+              "sizes": {
+                "javascript": 50
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+              "name": "./src/main.css",
+              "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+              "index": 7,
+              "preOrderIndex": 7,
+              "index2": 7,
+              "postOrderIndex": 7,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "name": "./src/index.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": ["logo.0590aaf0fe36e23dcc8c.png"],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./main.css",
+                  "loc": "3:0-20",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 150,
+              "sizes": {
+                "javascript": 150
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/shake.js",
+              "name": "./src/shake.js",
+              "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/shake.js",
+              "index": 9,
+              "preOrderIndex": 9,
+              "index2": 8,
+              "postOrderIndex": 8,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "name": "./src/index.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./shake",
+                  "loc": "5:0-31",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./shake",
+                  "loc": "6:0-4",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": ["bake"],
+              "providedExports": ["bake", "shake"],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 476,
+              "sizes": {
+                "javascript": 476
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+              "name": "./src/component.js",
+              "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+              "index": 10,
+              "preOrderIndex": 10,
+              "index2": 9,
+              "postOrderIndex": 9,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "name": "./src/index.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./component",
+                  "loc": "4:0-36",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./component",
+                  "loc": "7:26-35",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": ["default"],
+              "providedExports": ["default"],
+              "optimizationBailout": [],
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "type": "module",
+          "moduleType": "css/mini-extract",
+          "size": 5915,
+          "sizes": {
+            "css/mini-extract": 5915
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "css|/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css|0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "index": 8,
+          "preOrderIndex": 8,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "issuerName": "./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+              "name": "./src/main.css",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [179],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js|d7f0103a5a55bdc1504ecdf31195ff74",
+              "module": "./src/index.js + 3 modules",
+              "moduleName": "./src/index.js + 3 modules",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+              "resolvedModule": "./src/main.css",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": 604,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+              "module": "./src/main.css",
+              "moduleName": "./src/main.css",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+              "resolvedModule": "./src/main.css",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+          ],
+          "depth": 2
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 7921,
+      "sizes": {
+        "runtime": 7921
+      },
+      "names": ["runtime"],
+      "idHints": [],
+      "runtime": ["runtime"],
+      "files": ["runtime.13ce8f52ed3a930d84bd.js"],
+      "auxiliaryFiles": ["runtime.13ce8f52ed3a930d84bd.js.map"],
+      "hash": "13a0c04dbbf40399db2f",
+      "childrenByOrder": {},
+      "id": 666,
+      "siblings": [179, 736],
+      "parents": [],
+      "children": [34],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 953,
+          "sizes": {
+            "runtime": 953
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/chunk loaded",
+          "name": "webpack/runtime/chunk loaded",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [666],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 0,
+          "sizes": {
+            "runtime": 0
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/css loading",
+          "name": "webpack/runtime/css loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [666],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 336,
+          "sizes": {
+            "runtime": 336
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/ensure chunk",
+          "name": "webpack/runtime/ensure chunk",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [666],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 203,
+          "sizes": {
+            "runtime": 203
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get javascript chunk filename",
+          "name": "webpack/runtime/get javascript chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [666],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 168,
+          "sizes": {
+            "runtime": 168
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get mini-css chunk filename",
+          "name": "webpack/runtime/get mini-css chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [666],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 221,
+          "sizes": {
+            "runtime": 221
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/global",
+          "name": "webpack/runtime/global",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [666],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 103,
+          "sizes": {
+            "runtime": 103
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [666],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 3257,
+          "sizes": {
+            "runtime": 3257
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/jsonp chunk loading",
+          "name": "webpack/runtime/jsonp chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [666],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 1534,
+          "sizes": {
+            "runtime": 1534
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/load script",
+          "name": "webpack/runtime/load script",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [666],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 279,
+          "sizes": {
+            "runtime": 279
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [666],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 867,
+          "sizes": {
+            "runtime": 867
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [666],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: commons) (name: vendor)",
+      "size": 144636,
+      "sizes": {
+        "javascript": 144636
+      },
+      "names": ["vendor"],
+      "idHints": ["commons"],
+      "runtime": ["runtime"],
+      "files": ["vendor.ae0bdd575d7b90635592.js"],
+      "auxiliaryFiles": ["vendor.ae0bdd575d7b90635592.js.map"],
+      "hash": "9b615bf7dfa5e31cef5a",
+      "childrenByOrder": {},
+      "id": 736,
+      "siblings": [179, 666],
+      "parents": [],
+      "children": [34],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 131737,
+          "sizes": {
+            "javascript": 131737
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+          "issuerName": "./node_modules/react-dom/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 935
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 448,
+          "issuerId": 935,
+          "chunks": [736],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+              "module": "./node_modules/react-dom/index.js",
+              "moduleName": "./node_modules/react-dom/index.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+              "resolvedModule": "./node_modules/react-dom/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react-dom.production.min.js",
+              "loc": "35:2-63",
+              "moduleId": 935,
+              "resolvedModuleId": 935
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "createPortal",
+            "createRoot",
+            "findDOMNode",
+            "flushSync",
+            "hydrate",
+            "hydrateRoot",
+            "render",
+            "unmountComponentAtNode",
+            "unstable_batchedUpdates",
+            "unstable_renderSubtreeIntoContainer",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 13:13-61",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1363,
+          "sizes": {
+            "javascript": 1363
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 935,
+          "issuerId": null,
+          "chunks": [736],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js|d7f0103a5a55bdc1504ecdf31195ff74",
+              "module": "./src/index.js + 3 modules",
+              "moduleName": "./src/index.js + 3 modules",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom",
+              "loc": "2:0-19",
+              "moduleId": 604,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "createPortal",
+            "createRoot",
+            "findDOMNode",
+            "flushSync",
+            "hydrate",
+            "hydrateRoot",
+            "render",
+            "unmountComponentAtNode",
+            "unstable_batchedUpdates",
+            "unstable_renderSubtreeIntoContainer",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 34:2-13",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 6913,
+          "sizes": {
+            "javascript": 6913
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/cjs/react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/cjs/react.production.min.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/index.js",
+          "issuerName": "./node_modules/react/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/index.js",
+              "name": "./node_modules/react/index.js",
+              "id": 294
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 408,
+          "issuerId": 294,
+          "chunks": [736],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/index.js",
+              "module": "./node_modules/react/index.js",
+              "moduleName": "./node_modules/react/index.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/index.js",
+              "resolvedModule": "./node_modules/react/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react.production.min.js",
+              "loc": "4:2-59",
+              "moduleId": 294,
+              "resolvedModuleId": 294
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Children",
+            "Component",
+            "Fragment",
+            "Profiler",
+            "PureComponent",
+            "StrictMode",
+            "Suspense",
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "cloneElement",
+            "createContext",
+            "createElement",
+            "createFactory",
+            "createRef",
+            "forwardRef",
+            "isValidElement",
+            "lazy",
+            "memo",
+            "startTransition",
+            "unstable_act",
+            "useCallback",
+            "useContext",
+            "useDebugValue",
+            "useDeferredValue",
+            "useEffect",
+            "useId",
+            "useImperativeHandle",
+            "useInsertionEffect",
+            "useLayoutEffect",
+            "useMemo",
+            "useReducer",
+            "useRef",
+            "useState",
+            "useSyncExternalStore",
+            "useTransition",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 10:13-370",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 190,
+          "sizes": {
+            "javascript": 190
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/index.js",
+          "name": "./node_modules/react/index.js",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/index.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 294,
+          "issuerId": null,
+          "chunks": [736],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js|d7f0103a5a55bdc1504ecdf31195ff74",
+              "module": "./src/index.js + 3 modules",
+              "moduleName": "./src/index.js + 3 modules",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "1:0-15",
+              "moduleId": 604,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "13:20-36",
+              "moduleId": 448,
+              "resolvedModuleId": 448
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Children",
+            "Component",
+            "Fragment",
+            "Profiler",
+            "PureComponent",
+            "StrictMode",
+            "Suspense",
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "cloneElement",
+            "createContext",
+            "createElement",
+            "createFactory",
+            "createRef",
+            "forwardRef",
+            "isValidElement",
+            "lazy",
+            "memo",
+            "startTransition",
+            "unstable_act",
+            "useCallback",
+            "useContext",
+            "useDebugValue",
+            "useDeferredValue",
+            "useEffect",
+            "useId",
+            "useImperativeHandle",
+            "useInsertionEffect",
+            "useLayoutEffect",
+            "useMemo",
+            "useReducer",
+            "useRef",
+            "useState",
+            "useSyncExternalStore",
+            "useTransition",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:2-60",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 4235,
+          "sizes": {
+            "javascript": 4235
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/index.js",
+          "issuerName": "./node_modules/scheduler/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 935
+            },
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "id": 448
+            },
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/index.js",
+              "name": "./node_modules/scheduler/index.js",
+              "id": 840
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 53,
+          "issuerId": 840,
+          "chunks": [736],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "13:227-247",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:20-40",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:85-105",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:449-469",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "18:56-76",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/index.js",
+              "module": "./node_modules/scheduler/index.js",
+              "moduleName": "./node_modules/scheduler/index.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/index.js",
+              "resolvedModule": "./node_modules/scheduler/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/scheduler.production.min.js",
+              "loc": "4:2-63",
+              "moduleId": 840,
+              "resolvedModuleId": 840
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "unstable_IdlePriority",
+            "unstable_ImmediatePriority",
+            "unstable_LowPriority",
+            "unstable_NormalPriority",
+            "unstable_Profiling",
+            "unstable_UserBlockingPriority",
+            "unstable_cancelCallback",
+            "unstable_continueExecution",
+            "unstable_forceFrameRate",
+            "unstable_getCurrentPriorityLevel",
+            "unstable_getFirstCallbackNode",
+            "unstable_next",
+            "unstable_now",
+            "unstable_pauseExecution",
+            "unstable_requestPaint",
+            "unstable_runWithPriority",
+            "unstable_scheduleCallback",
+            "unstable_shouldYield",
+            "unstable_wrapCallback"
+          ],
+          "optimizationBailout": [
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 13:227-247",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:20-40",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:85-105",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:449-469",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 18:56-76",
+            "Statement (IfStatement) with side effects in source code at 11:71-284",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 198,
+          "sizes": {
+            "javascript": 198
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/index.js",
+          "name": "./node_modules/scheduler/index.js",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/index.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 935
+            },
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "id": 448
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 840,
+          "issuerId": 448,
+          "chunks": [736],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "scheduler",
+              "loc": "13:40-60",
+              "moduleId": 448,
+              "resolvedModuleId": 448
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "unstable_IdlePriority",
+            "unstable_ImmediatePriority",
+            "unstable_LowPriority",
+            "unstable_NormalPriority",
+            "unstable_Profiling",
+            "unstable_UserBlockingPriority",
+            "unstable_cancelCallback",
+            "unstable_continueExecution",
+            "unstable_forceFrameRate",
+            "unstable_getCurrentPriorityLevel",
+            "unstable_getFirstCallbackNode",
+            "unstable_next",
+            "unstable_now",
+            "unstable_pauseExecution",
+            "unstable_requestPaint",
+            "unstable_runWithPriority",
+            "unstable_scheduleCallback",
+            "unstable_shouldYield",
+            "unstable_wrapCallback"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:2-64",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "layer": null,
+      "size": 849,
+      "sizes": {
+        "javascript": 849
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js|d7f0103a5a55bdc1504ecdf31195ff74",
+      "name": "./src/index.js + 3 modules",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 10,
+      "postOrderIndex": 10,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 604,
+      "chunks": [179],
+      "assets": ["logo.0590aaf0fe36e23dcc8c.png"],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/index.js: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 173,
+          "sizes": {
+            "javascript": 173
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 6:0-7"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 50,
+          "sizes": {
+            "javascript": 50
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 7,
+          "postOrderIndex": 7,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": ["logo.0590aaf0fe36e23dcc8c.png"],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./main.css",
+              "loc": "3:0-20",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 150,
+          "sizes": {
+            "javascript": 150
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/shake.js",
+          "name": "./src/shake.js",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/shake.js",
+          "index": 9,
+          "preOrderIndex": 9,
+          "index2": 8,
+          "postOrderIndex": 8,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./shake",
+              "loc": "5:0-31",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./shake",
+              "loc": "6:0-4",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": ["bake"],
+          "providedExports": ["bake", "shake"],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 476,
+          "sizes": {
+            "javascript": 476
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+          "name": "./src/component.js",
+          "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+          "index": 10,
+          "preOrderIndex": 10,
+          "index2": 9,
+          "postOrderIndex": 9,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./component",
+              "loc": "4:0-36",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./component",
+              "loc": "7:26-35",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": ["default"],
+          "providedExports": ["default"],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 190,
+      "sizes": {
+        "javascript": 190
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/index.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 294,
+      "issuerId": null,
+      "chunks": [736],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js|d7f0103a5a55bdc1504ecdf31195ff74",
+          "module": "./src/index.js + 3 modules",
+          "moduleName": "./src/index.js + 3 modules",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "1:0-15",
+          "moduleId": 604,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "13:20-36",
+          "moduleId": 448,
+          "resolvedModuleId": 448
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Children",
+        "Component",
+        "Fragment",
+        "Profiler",
+        "PureComponent",
+        "StrictMode",
+        "Suspense",
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "cloneElement",
+        "createContext",
+        "createElement",
+        "createFactory",
+        "createRef",
+        "forwardRef",
+        "isValidElement",
+        "lazy",
+        "memo",
+        "startTransition",
+        "unstable_act",
+        "useCallback",
+        "useContext",
+        "useDebugValue",
+        "useDeferredValue",
+        "useEffect",
+        "useId",
+        "useImperativeHandle",
+        "useInsertionEffect",
+        "useLayoutEffect",
+        "useMemo",
+        "useReducer",
+        "useRef",
+        "useState",
+        "useSyncExternalStore",
+        "useTransition",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 4:2-60",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1363,
+      "sizes": {
+        "javascript": 1363
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 935,
+      "issuerId": null,
+      "chunks": [736],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js|d7f0103a5a55bdc1504ecdf31195ff74",
+          "module": "./src/index.js + 3 modules",
+          "moduleName": "./src/index.js + 3 modules",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-dom",
+          "loc": "2:0-19",
+          "moduleId": 604,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "createPortal",
+        "createRoot",
+        "findDOMNode",
+        "flushSync",
+        "hydrate",
+        "hydrateRoot",
+        "render",
+        "unmountComponentAtNode",
+        "unstable_batchedUpdates",
+        "unstable_renderSubtreeIntoContainer",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 34:2-13",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 50,
+      "sizes": {
+        "javascript": 50
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+      "name": "./src/main.css",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+      "index": 7,
+      "preOrderIndex": 7,
+      "index2": 7,
+      "postOrderIndex": 7,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": ["logo.0590aaf0fe36e23dcc8c.png"],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./main.css",
+          "loc": "3:0-20",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 150,
+      "sizes": {
+        "javascript": 150
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/shake.js",
+      "name": "./src/shake.js",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/shake.js",
+      "index": 9,
+      "preOrderIndex": 9,
+      "index2": 8,
+      "postOrderIndex": 8,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./shake",
+          "loc": "5:0-31",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./shake",
+          "loc": "6:0-4",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": ["bake"],
+      "providedExports": ["bake", "shake"],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 476,
+      "sizes": {
+        "javascript": 476
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+      "name": "./src/component.js",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+      "index": 10,
+      "preOrderIndex": 10,
+      "index2": 9,
+      "postOrderIndex": 9,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./component",
+          "loc": "4:0-36",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./component",
+          "loc": "7:26-35",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": ["default"],
+      "providedExports": ["default"],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 6913,
+      "sizes": {
+        "javascript": 6913
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/cjs/react.production.min.js",
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/cjs/react.production.min.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/index.js",
+      "issuerName": "./node_modules/react/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/index.js",
+          "name": "./node_modules/react/index.js",
+          "id": 294
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 408,
+      "issuerId": 294,
+      "chunks": [736],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/index.js",
+          "module": "./node_modules/react/index.js",
+          "moduleName": "./node_modules/react/index.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react/index.js",
+          "resolvedModule": "./node_modules/react/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react.production.min.js",
+          "loc": "4:2-59",
+          "moduleId": 294,
+          "resolvedModuleId": 294
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Children",
+        "Component",
+        "Fragment",
+        "Profiler",
+        "PureComponent",
+        "StrictMode",
+        "Suspense",
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "cloneElement",
+        "createContext",
+        "createElement",
+        "createFactory",
+        "createRef",
+        "forwardRef",
+        "isValidElement",
+        "lazy",
+        "memo",
+        "startTransition",
+        "unstable_act",
+        "useCallback",
+        "useContext",
+        "useDebugValue",
+        "useDeferredValue",
+        "useEffect",
+        "useId",
+        "useImperativeHandle",
+        "useInsertionEffect",
+        "useLayoutEffect",
+        "useMemo",
+        "useReducer",
+        "useRef",
+        "useState",
+        "useSyncExternalStore",
+        "useTransition",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 10:13-370",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 131737,
+      "sizes": {
+        "javascript": 131737
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+      "issuerName": "./node_modules/react-dom/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 935
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 448,
+      "issuerId": 935,
+      "chunks": [736],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+          "module": "./node_modules/react-dom/index.js",
+          "moduleName": "./node_modules/react-dom/index.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+          "resolvedModule": "./node_modules/react-dom/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react-dom.production.min.js",
+          "loc": "35:2-63",
+          "moduleId": 935,
+          "resolvedModuleId": 935
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "createPortal",
+        "createRoot",
+        "findDOMNode",
+        "flushSync",
+        "hydrate",
+        "hydrateRoot",
+        "render",
+        "unmountComponentAtNode",
+        "unstable_batchedUpdates",
+        "unstable_renderSubtreeIntoContainer",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 13:13-61",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "css/mini-extract",
+      "size": 5915,
+      "sizes": {
+        "css/mini-extract": 5915
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "css|/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css|0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+      "index": 8,
+      "preOrderIndex": 8,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+      "issuerName": "./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [179],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js|d7f0103a5a55bdc1504ecdf31195ff74",
+          "module": "./src/index.js + 3 modules",
+          "moduleName": "./src/index.js + 3 modules",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": 604,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "module": "./src/main.css",
+          "moduleName": "./src/main.css",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 35,
+      "sizes": {
+        "javascript": 35
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/lazy.js",
+      "name": "./src/lazy.js",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/lazy.js",
+      "index": 11,
+      "preOrderIndex": 11,
+      "index2": 11,
+      "postOrderIndex": 11,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+      "issuerName": "./src/component.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+          "name": "./src/component.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 34,
+      "issuerId": null,
+      "chunks": [34],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+          "module": "./src/component.js",
+          "moduleName": "./src/component.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+          "resolvedModule": "./src/component.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./lazy",
+          "loc": "7:4-20",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js|d7f0103a5a55bdc1504ecdf31195ff74",
+          "module": "./src/index.js + 3 modules",
+          "moduleName": "./src/index.js + 3 modules",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/component.js",
+          "resolvedModule": "./src/component.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./lazy",
+          "loc": "7:4-20",
+          "moduleId": 604,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": true,
+      "providedExports": ["default"],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 198,
+      "sizes": {
+        "javascript": 198
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/index.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 935
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "id": 448
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 840,
+      "issuerId": 448,
+      "chunks": [736],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "scheduler",
+          "loc": "13:40-60",
+          "moduleId": 448,
+          "resolvedModuleId": 448
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "unstable_IdlePriority",
+        "unstable_ImmediatePriority",
+        "unstable_LowPriority",
+        "unstable_NormalPriority",
+        "unstable_Profiling",
+        "unstable_UserBlockingPriority",
+        "unstable_cancelCallback",
+        "unstable_continueExecution",
+        "unstable_forceFrameRate",
+        "unstable_getCurrentPriorityLevel",
+        "unstable_getFirstCallbackNode",
+        "unstable_next",
+        "unstable_now",
+        "unstable_pauseExecution",
+        "unstable_requestPaint",
+        "unstable_runWithPriority",
+        "unstable_scheduleCallback",
+        "unstable_shouldYield",
+        "unstable_wrapCallback"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 4:2-64",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 4235,
+      "sizes": {
+        "javascript": 4235
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/index.js",
+      "issuerName": "./node_modules/scheduler/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 935
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "id": 448
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/index.js",
+          "name": "./node_modules/scheduler/index.js",
+          "id": 840
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 53,
+      "issuerId": 840,
+      "chunks": [736],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "13:227-247",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:20-40",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:85-105",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:449-469",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "18:56-76",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/index.js",
+          "module": "./node_modules/scheduler/index.js",
+          "moduleName": "./node_modules/scheduler/index.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/scheduler/index.js",
+          "resolvedModule": "./node_modules/scheduler/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/scheduler.production.min.js",
+          "loc": "4:2-63",
+          "moduleId": 840,
+          "resolvedModuleId": 840
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "unstable_IdlePriority",
+        "unstable_ImmediatePriority",
+        "unstable_LowPriority",
+        "unstable_NormalPriority",
+        "unstable_Profiling",
+        "unstable_UserBlockingPriority",
+        "unstable_cancelCallback",
+        "unstable_continueExecution",
+        "unstable_forceFrameRate",
+        "unstable_getCurrentPriorityLevel",
+        "unstable_getFirstCallbackNode",
+        "unstable_next",
+        "unstable_now",
+        "unstable_pauseExecution",
+        "unstable_requestPaint",
+        "unstable_runWithPriority",
+        "unstable_scheduleCallback",
+        "unstable_shouldYield",
+        "unstable_wrapCallback"
+      ],
+      "optimizationBailout": [
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 13:227-247",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:20-40",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:85-105",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:449-469",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 18:56-76",
+        "Statement (IfStatement) with side effects in source code at 11:71-284",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 21357,
+      "sizes": {
+        "javascript": 21357
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+      "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+      "issuerName": "./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "loader import",
+          "active": false,
+          "explanation": "",
+          "userRequest": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css.webpack[javascript/auto]!=!!!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "loc": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css.webpack[javascript/auto]!=!!!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": ["default"],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 6:0-97",
+        "ModuleConcatenation bailout: Module uses module.id"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2318,
+      "sizes": {
+        "javascript": 2318
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+      "issuerName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "3:0-89",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "6:30-57",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+          "module": "./node_modules/css-loader/dist/runtime/api.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "7:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 7:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 7:0-102:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 598,
+      "sizes": {
+        "javascript": 598
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/runtime/getUrl.js",
+      "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/runtime/getUrl.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+      "issuerName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "4:0-96",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "7:41-72",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/runtime/getUrl.js",
+          "module": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/runtime/getUrl.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 3:0-29:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 688,
+      "sizes": {
+        "javascript": 688
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+      "issuerName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "loc": "2:0-106",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "loc": "6:58-95",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 3:0-22:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "asset",
+      "layer": null,
+      "size": 42,
+      "sizes": {
+        "javascript": 42,
+        "asset": 42155
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "asset|/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/logo.png",
+      "name": "./src/logo.png",
+      "nameForCondition": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/logo.png",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+      "issuerName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "id": null
+        },
+        {
+          "identifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "resolvedModuleIdentifier": "/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[4]!./src/main.css",
+          "type": "new URL()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./logo.png",
+          "loc": "5:36-74",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not in any chunk"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 38,
+      "sizes": {
+        "runtime": 38
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/base uri",
+      "name": "webpack/runtime/base uri",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for BaseUriRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 953,
+      "sizes": {
+        "runtime": 953
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/chunk loaded",
+      "name": "webpack/runtime/chunk loaded",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [666],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 302,
+      "sizes": {
+        "runtime": 302
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CompatGetDefaultExportRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 0,
+      "sizes": {
+        "runtime": 0
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/css loading",
+      "name": "webpack/runtime/css loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [666],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 313,
+      "sizes": {
+        "runtime": 313
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for DefinePropertyGettersRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 336,
+      "sizes": {
+        "runtime": 336
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/ensure chunk",
+      "name": "webpack/runtime/ensure chunk",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [666],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 203,
+      "sizes": {
+        "runtime": 203
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get javascript chunk filename",
+      "name": "webpack/runtime/get javascript chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [666],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 168,
+      "sizes": {
+        "runtime": 168
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get mini-css chunk filename",
+      "name": "webpack/runtime/get mini-css chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [666],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [666],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 103,
+      "sizes": {
+        "runtime": 103
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for HasOwnPropertyRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 103,
+      "sizes": {
+        "runtime": 103
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [666],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 3257,
+      "sizes": {
+        "runtime": 3257
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [666],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 1534,
+      "sizes": {
+        "runtime": 1534
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/load script",
+      "name": "webpack/runtime/load script",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [666],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 279,
+      "sizes": {
+        "runtime": 279
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for MakeNamespaceObjectRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 279,
+      "sizes": {
+        "runtime": 279
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [666],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 106,
+      "sizes": {
+        "runtime": 106
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for PublicPathRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 867,
+      "sizes": {
+        "runtime": 867
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [666],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [666, 736, 179],
+      "assets": [
+        {
+          "name": "runtime.13ce8f52ed3a930d84bd.js",
+          "size": 3279
+        },
+        {
+          "name": "vendor.ae0bdd575d7b90635592.js",
+          "size": 137782
+        },
+        {
+          "name": "main.656ee1078d22d898655d.css",
+          "size": 5784
+        },
+        {
+          "name": "main.d92408b9b46eeb47448f.js",
+          "size": 733
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 147578,
+      "auxiliaryAssets": [
+        {
+          "name": "logo.0590aaf0fe36e23dcc8c.png",
+          "size": 42155
+        },
+        {
+          "name": "main.656ee1078d22d898655d.css.map",
+          "size": 14644
+        },
+        {
+          "name": "main.d92408b9b46eeb47448f.js.map",
+          "size": 1403
+        },
+        {
+          "name": "runtime.13ce8f52ed3a930d84bd.js.map",
+          "size": 15883
+        },
+        {
+          "name": "vendor.ae0bdd575d7b90635592.js.map",
+          "size": 348320
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 422405,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": true
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [666, 736, 179],
+      "assets": [
+        {
+          "name": "runtime.13ce8f52ed3a930d84bd.js",
+          "size": 3279
+        },
+        {
+          "name": "vendor.ae0bdd575d7b90635592.js",
+          "size": 137782
+        },
+        {
+          "name": "main.656ee1078d22d898655d.css",
+          "size": 5784
+        },
+        {
+          "name": "main.d92408b9b46eeb47448f.js",
+          "size": 733
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 147578,
+      "auxiliaryAssets": [
+        {
+          "name": "logo.0590aaf0fe36e23dcc8c.png",
+          "size": 42155
+        },
+        {
+          "name": "main.656ee1078d22d898655d.css.map",
+          "size": 14644
+        },
+        {
+          "name": "main.d92408b9b46eeb47448f.js.map",
+          "size": 1403
+        },
+        {
+          "name": "runtime.13ce8f52ed3a930d84bd.js.map",
+          "size": 15883
+        },
+        {
+          "name": "vendor.ae0bdd575d7b90635592.js.map",
+          "size": 348320
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 422405,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": true
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [
+    {
+      "message": "asset size limit: The following asset(s) exceed the recommended size limit (97.7 KiB).\nThis can impact web performance.\nAssets: \n  vendor.ae0bdd575d7b90635592.js (135 KiB)",
+      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (97.7 KiB).\nThis can impact web performance.\nAssets: \n  vendor.ae0bdd575d7b90635592.js (135 KiB)\n    at /Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:134:7\n    at Hook.eval [as callAsync] (eval at create (/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/tapable/lib/Hook.js:18:14)\n    at /Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/webpack/lib/Compiler.js:882:27\n    at /Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/neo-async/async.js:2818:7\n    at done (/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/webpack/lib/Compiler.js:736:33\n    at /Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/graceful-fs/graceful-fs.js:61:14\n    at FSReqCallback.oncomplete (node:fs:196:23)"
+    },
+    {
+      "message": "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (48.8 KiB). This can impact web performance.\nEntrypoints:\n  main (144 KiB)\n      runtime.13ce8f52ed3a930d84bd.js\n      vendor.ae0bdd575d7b90635592.js\n      main.656ee1078d22d898655d.css\n      main.d92408b9b46eeb47448f.js\n",
+      "stack": "EntrypointsOverSizeLimitWarning: entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (48.8 KiB). This can impact web performance.\nEntrypoints:\n  main (144 KiB)\n      runtime.13ce8f52ed3a930d84bd.js\n      vendor.ae0bdd575d7b90635592.js\n      main.656ee1078d22d898655d.css\n      main.d92408b9b46eeb47448f.js\n\n    at /Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:139:7\n    at Hook.eval [as callAsync] (eval at create (/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/tapable/lib/Hook.js:18:14)\n    at /Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/webpack/lib/Compiler.js:882:27\n    at /Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/neo-async/async.js:2818:7\n    at done (/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/webpack/lib/Compiler.js:736:33\n    at /Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /Users/Haipeng_F/Documents/SurviveJS/webpack-demo/node_modules/graceful-fs/graceful-fs.js:61:14\n    at FSReqCallback.oncomplete (node:fs:196:23)"
+    }
+  ],
+  "warningsCount": 2,
+  "children": []
+}

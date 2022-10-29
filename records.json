@@ -20,6 +20,7 @@
   },
   "modules": {
     "byIdentifier": {
+      "./node_modules/babel-loader/lib/index.js!./src/index.js": 579,
       "./node_modules/babel-loader/lib/index.js!./src/index.js|d7f0103a5a55bdc1504ecdf31195ff74": 604,
       "./node_modules/babel-loader/lib/index.js!./src/lazy.js": 34,
       "./node_modules/react-dom/cjs/react-dom.production.min.js": 448,

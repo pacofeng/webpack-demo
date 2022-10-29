@@ -50,6 +50,15 @@ const productionConfig = merge([
   {
     recordsPath: path.join(__dirname, 'records.json'),
   },
+  {
+    performance: {
+      hints: 'warning',
+      maxEntrypointSize: 50000,
+      maxAssetSize: 100000,
+    },
+    profile: true,
+  },
+  parts.webpackBundleAnalyzer,
 ]);
 
 const developmentConfig = merge([

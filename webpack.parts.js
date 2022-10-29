@@ -9,6 +9,8 @@ const webpack = require('webpack');
 const { GitRevisionPlugin } = require('git-revision-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const BundleAnalyzerPlugin =
+  require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const ALL_FILES = glob.sync(path.join(__dirname, 'src/*.js'));
 const APP_SOURCE = path.join(__dirname, 'src');
@@ -154,4 +156,8 @@ exports.setFreeVariable = (key, value) => {
   return {
     plugins: [new webpack.DefinePlugin(env)],
   };
+};
+
+exports.webpackBundleAnalyzer = {
+  plugins: [new BundleAnalyzerPlugin()],
 };
