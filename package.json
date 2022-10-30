@@ -8,6 +8,7 @@
     "build": "wp --mode prod:legacy && wp --mode prod:modern",
     "build:stats": "wp --mode prod:legacy && wp --mode prod:modern --json > stats.json",
     "build:multi": "wp --config webpack.multi.js",
+    "build:ssr": "wp --config webpack.ssr.js",
     "start": "wp --mode development",
     "watch": "nodemon --watch webpack.* --exec \"npm run start\""
   },
@@ -17,11 +18,13 @@
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
     "autoprefixer": "^10.4.12",
     "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.2.2",
+    "express": "^4.18.2",
     "git-revision-webpack-plugin": "^5.0.0",
     "glob": "^8.0.3",
     "mini-css-extract-plugin": "^2.6.1",

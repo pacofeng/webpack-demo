@@ -1,7 +1,7 @@
 const { merge } = require('webpack-merge');
 const parts = require('./webpack.parts');
 
-process.env.BROWSERSLIST_ENV = 'modern';
+// process.env.BROWSERSLIST_ENV = 'modern';
 const cssLoaders = [parts.autoprefix(), parts.tailwind()];
 
 module.exports = merge(
