@@ -25,7 +25,7 @@ const commonConfig = merge([
 const productionConfig = merge([
   {
     output: {
-      publicPath: '/webpack-demo/',
+      // publicPath: '/webpack-demo/',
     },
   },
   parts.eliminateUnusedCSS,
