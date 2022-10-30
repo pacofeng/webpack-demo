@@ -9,6 +9,8 @@
     "build:stats": "wp --mode prod:legacy && wp --mode prod:modern --json > stats.json",
     "build:multi": "wp --config webpack.multi.js",
     "build:ssr": "wp --config webpack.ssr.js",
+    "build:mf": "wp --config webpack.mf.js --mode production",
+    "start:mf": "wp --config webpack.mf.js --mode development",
     "start": "wp --mode development",
     "watch": "nodemon --watch webpack.* --exec \"npm run start\""
   },

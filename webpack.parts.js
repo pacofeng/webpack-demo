@@ -11,6 +11,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const BundleAnalyzerPlugin =
   require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const { ModuleFederationPlugin } = require('webpack').container;
 
 const ALL_FILES = glob.sync(path.join(__dirname, 'src/*.js'));
 const APP_SOURCE = path.join(__dirname, 'src');
@@ -169,6 +170,18 @@ exports.page = ({ title, url = '', chunks } = {}) => ({
       chunks,
       filename: `${url && url + '/'}index.html`,
       context: { title },
+    }),
+  ],
+});
+
+exports.federateModule = ({ name, filename, exposes, remotes, shared }) => ({
+  plugins: [
+    new ModuleFederationPlugin({
+      name,
+      filename,
+      exposes,
+      remotes,
+      shared,
     }),
   ],
 });
