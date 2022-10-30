@@ -15,7 +15,8 @@
     "test:mocha": "mocha tests",
     "test:mocha:watch": "wp --config webpack.mocha.js",
     "start": "wp --mode development",
-    "watch": "nodemon --watch webpack.* --exec \"npm run start\""
+    "watch": "nodemon --watch webpack.* --exec \"npm run start\"",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +33,7 @@
     "css-minimizer-webpack-plugin": "^4.2.2",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "gh-pages": "^4.0.0",
     "git-revision-webpack-plugin": "^5.0.0",
     "glob": "^8.0.3",
     "mini-css-extract-plugin": "^2.6.1",

@@ -7,7 +7,11 @@ const parts = require('./webpack.parts');
 const cssLoaders = [parts.autoprefix(), parts.tailwind()];
 
 const commonConfig = merge([
-  { output: { path: path.resolve(process.cwd(), 'dist') } },
+  {
+    output: {
+      path: path.resolve(process.cwd(), 'dist'),
+    },
+  },
   parts.clean(),
   { entry: ['./src'] },
   parts.page({ title: 'dddemo' }),
@@ -19,6 +23,11 @@ const commonConfig = merge([
 ]);
 
 const productionConfig = merge([
+  {
+    output: {
+      publicPath: '/webpack-demo/',
+    },
+  },
   parts.eliminateUnusedCSS,
   { mode: 'production' },
   parts.generateSourceMaps({ type: 'source-map' }),
