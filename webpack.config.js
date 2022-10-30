@@ -23,11 +23,6 @@ const commonConfig = merge([
 ]);
 
 const productionConfig = merge([
-  {
-    output: {
-      // publicPath: '/webpack-demo/',
-    },
-  },
   parts.eliminateUnusedCSS,
   { mode: 'production' },
   parts.generateSourceMaps({ type: 'source-map' }),
