@@ -11,6 +11,7 @@
     "build:ssr": "wp --config webpack.ssr.js",
     "build:mf": "wp --config webpack.mf.js --mode production",
     "start:mf": "wp --config webpack.mf.js --mode development",
+    "build:i18n": "wp --config webpack.i18n.js",
     "start": "wp --mode development",
     "watch": "nodemon --watch webpack.* --exec \"npm run start\""
   },
