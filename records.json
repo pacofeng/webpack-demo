@@ -7,6 +7,7 @@
     },
     "bySource": {
       "0 ./node_modules/babel-loader/lib/index.js!./src/component.js ./lazy": 34,
+      "0 ./node_modules/babel-loader/lib/index.js!./src/component.js {\"line\":4,\"column\":15}": 602,
       "0 main": 666,
       "1 main": 736,
       "2 main": 179
@@ -14,6 +15,7 @@
     "usedIds": [
       34,
       179,
+      602,
       666,
       736
     ]
@@ -23,6 +25,7 @@
       "./node_modules/babel-loader/lib/index.js!./src/index.js": 579,
       "./node_modules/babel-loader/lib/index.js!./src/index.js|d7f0103a5a55bdc1504ecdf31195ff74": 604,
       "./node_modules/babel-loader/lib/index.js!./src/lazy.js": 34,
+      "./node_modules/babel-loader/lib/index.js!./src/worker.js": 602,
       "./node_modules/react-dom/cjs/react-dom.production.min.js": 448,
       "./node_modules/react-dom/index.js": 935,
       "./node_modules/react/cjs/react.production.min.js": 408,
@@ -36,6 +39,7 @@
       294,
       408,
       448,
+      602,
       604,
       840,
       935
