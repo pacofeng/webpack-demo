@@ -161,3 +161,14 @@ exports.setFreeVariable = (key, value) => {
 exports.webpackBundleAnalyzer = {
   plugins: [new BundleAnalyzerPlugin()],
 };
+
+exports.page = ({ title, url = '', chunks } = {}) => ({
+  plugins: [
+    new MiniHtmlWebpackPlugin({
+      publicPath: '/',
+      chunks,
+      filename: `${url && url + '/'}index.html`,
+      context: { title },
+    }),
+  ],
+});

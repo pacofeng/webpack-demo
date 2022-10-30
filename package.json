@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "wp --mode prod:legacy && wp --mode prod:modern",
     "build:stats": "wp --mode prod:legacy && wp --mode prod:modern --json > stats.json",
+    "build:multi": "wp --config webpack.multi.js",
     "start": "wp --mode development",
     "watch": "nodemon --watch webpack.* --exec \"npm run start\""
   },
