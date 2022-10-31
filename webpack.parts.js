@@ -18,11 +18,14 @@ const APP_SOURCE = path.join(__dirname, 'src');
 
 exports.devServer = () => ({
   watch: true,
+  devServer: {
+    hot: true,
+  },
   plugins: [
     new WebpackPluginServe({
       port: process.env.PORT || 8080,
       static: './dist',
-      liveReload: true,
+      // liveReload: true,
       waitForBuild: true,
     }),
   ],
