@@ -3,10 +3,12 @@ import 'react-dom';
 import './main.css';
 import component from './component';
 import { bake } from './shake';
+import component2 from './component2';
 bake();
 
 let demoComponent = component();
 document.body.appendChild(demoComponent);
+document.body.appendChild(component2());
 
 // HMR interface
 if (module.hot) {
