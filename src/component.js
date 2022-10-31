@@ -1,3 +1,5 @@
+// import '!demo-loader?name=foo!./main.css';
+
 export default (text = HELLO) => {
   const element = document.createElement('div');
   const worker = new Worker(new URL('./worker.js', import.meta.url));
